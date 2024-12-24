@@ -1,0 +1,208 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #FAF9F8;
+}
+
+/* Header Section */
+header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #FFFFFF;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logo {
+    color: #3e3e3e;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-left: 200px; /* Adjust spacing */
+}
+
+.logo span {
+    color: #F69F46;
+    text-transform: uppercase; /* Accent color for logo */
+}
+
+.nav_location ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.nav_location a {
+    text-decoration: none;
+    color: #9C9B9E; /* Neutral gray */
+    transition: color 0.3s ease;
+}
+
+.nav_location a:hover {
+    color: #F69F46; /* Accent color on hover */
+}
+
+.btn-1 {
+    background-color: #F69F46; 
+    color: #FFFFFF; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-1:hover {
+    background-color: #f5deb3; /* Lighter hover effect */
+    color: #3e3e3e; /* Contrast text on hover */
+}
+
+/* Courses Section */
+.courses-section {
+    padding: 50px 20px;
+    background: #FAF9F8; /* Soft background */
+    text-align: center;
+}
+
+.courses-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3e3e3e; /* Matches logo text */
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: #9C9B9E; /* Matches nav link color */
+    margin-bottom: 40px;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-card {
+    background: #FFFFFF; /* Matches header background */
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    font-size: 1.8rem;
+    color: #F69F46; /* Matches button color */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.course-card p {
+    font-size: 1rem;
+    color: #9C9B9E; /* Matches nav link text */
+    margin-bottom: 20px;
+}
+
+.enroll-btn {
+    background-color: #F69F46;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-btn:hover {
+    background-color: #f5deb3; /* Lighter hover effect */
+    color: #3e3e3e; /* Contrast text */
+}
+
+.course-card a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+/* footer */
+
+footer {
+    height: 400px;
+    width: 100%;
+    background-color: #D2E6F9;
+    color: #4F5867;
+}
+.footer_container {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container_links_one li {
+    list-style: none;
+    font-size: 1.3rem ;
+    color: #4F5867;
+}
+.container_links_one a {
+    text-decoration: none;
+    color: #4F5867;
+}
+.container_links_two li {
+    list-style: none;
+    font-size: 1.3rem ;
+}
+.container_links_two a {
+    text-decoration: none;
+    color: #4F5867;
+}
+.container_links_three li {
+    list-style: none;
+    font-size: 1.3rem ;
+    color: #4F5867;
+
+}
+.container_links_three a {
+    text-decoration: none;
+    color: #4F5867;
+}
+.copyright_section {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+.footer_container h3 {
+    padding-bottom: 20px;
+}
+.footer_container a:hover {
+    color: #F69F46;
+}
